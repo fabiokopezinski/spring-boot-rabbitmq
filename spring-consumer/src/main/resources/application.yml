@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    request:
+      host: localhost
+      port: 5672
+      username: fabio
+      password: 124578
+      exchenge:
+        producer: ex.producer.aula-spring
+      routing-key:
+        producer: rk.producer.aula-spring
+      dead-letter:
+        producer: dl.producer.aula-spring
+      parking-lot:
+        producer: pl.producer.aula-spring
